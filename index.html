@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory</title>
+    <link rel="stylesheet" href="css/book.css">
+</head>
+
+<body>
+    <header>
+        <h1>Book Inventory</h1>
+    </header>
+    <main>
+        <section id="add-book">
+            <h2>Add a New Book</h2>
+            <form id="book-form">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="author_name">Author:</label>
+                    <input type="text" id="author_name" name="author_name" required>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label for="publication-year">Publication Year:</label>
+                    <input type="number" id="publication-year" name="publication_year" required>
+                </div>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+
+        <h3>BOOK LIST</h3>
+
+
+        <section id="book-list">
+            <!-- Book list content goes here -->
+        </section>
+
+    </main>
+    <script src="js/book.js"></script>
+</body>
+
+</html>
